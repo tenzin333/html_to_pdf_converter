@@ -1,0 +1,36 @@
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Dependencies ---
+# Node.js
+node_modules/
+npm-debug.log*
+
+converted/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+build/
+dist/
+
+# --- Environment & Secrets ---
+.env
+.flaskenv
+*.key
+*.pem
+
+# --- Project Specific (Output) ---
+# It's usually best to ignore the generated PDFs so they don't bloat the repo
+*.pdf
+output/
+temp/
+
+# --- Logs ---
+*.log
+logs/

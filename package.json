@@ -1,0 +1,19 @@
+{
+  "name": "html_to_pdf",
+  "version": "1.0.0",
+  "description": "genearate pdf from html files built for resumes templates",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "pdf": "node generate-pdf.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "htmlToPdf"
+  ],
+  "author": "Tenzin",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.29.0"
+  }
+}
