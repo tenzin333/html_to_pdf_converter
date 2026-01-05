@@ -1,28 +1,29 @@
-HTML to PDF Converter
+# 📄 HTML to PDF Converter
+
 A lightweight tool designed to convert HTML templates (specifically optimized for resumes and CVs) into high-quality PDF documents. This project allows you to maintain your resume in clean HTML/CSS and generate a professional PDF with a single command.
 
-🚀 Features
-Pixel Perfect: Maintains the layout and styling of your HTML/CSS.
+---
 
-Resume Optimized: Specifically built to handle single-page and multi-page resume layouts.
+## 🚀 Features
+* **Pixel Perfect:** Maintains the layout and styling of your HTML/CSS.
+* **Resume Optimized:** Specifically built to handle single-page and multi-page resume layouts.
+* **Fast Conversion:** Quickly generate updated PDFs after making changes to your source HTML.
+* **Clean Output:** Automatically handles print margins and background graphics.
 
-Fast Conversion: Quickly generate updated PDFs after making changes to your source HTML.
+---
 
-Clean Output: Automatically handles print margins and background graphics.
+## 🛠️ Installation
 
-🛠️ Installation
-1. Prerequisites
+### 1. Prerequisites
 Ensure you have the following installed on your system:
+* **Python 3.x** or **Node.js**
+* **wkhtmltopdf** (Optional, if using `pdfkit`)
 
-Python 3.x or Node.js (depending on your specific implementation)
-
-wkhtmltopdf (Optional, if using pdfkit or similar libraries)
-
-2. Clone the Repository
-Bash
-
-git clone https://github.com/tenzin333/html_to_pdf_converter.git
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/tenzin333/html_to_pdf_converter.git](https://github.com/tenzin333/html_to_pdf_converter.git)
 cd html_to_pdf_converter
+
 3. Install Dependencies
 If you are using Python:
 
